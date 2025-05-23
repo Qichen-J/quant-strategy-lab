@@ -3,7 +3,7 @@
 ## Baseline Strategy
 - **Logic**: RSI (30/70) + MACD (12, 26, 9)
 - **Asset**: AAPL (daily data over the past 2 years)
-- **Performance**: Sharpe ≈ 0.7, Maximum Drawdown X%, see backtest in `notebooks/baseline_strategy.ipynb`
+- **Performance**: Sharpe ≈ 1.01, Maximum Drawdown 6.88%, see backtest in `notebooks/baseline_strategy.ipynb`
 
 ## How to Run
 ```bash
