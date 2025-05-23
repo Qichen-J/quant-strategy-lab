@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as mp
 
 def run_backtest(data: pd.DataFrame) -> None:
     """
@@ -7,7 +8,7 @@ def run_backtest(data: pd.DataFrame) -> None:
     Signals: buy when RSI<30 and MACD>Signal; sell when RSI>70 and MACD<Signal.
     """
     # Initialize position
-    data['Position'] = 0
+    data['Position'] = np.nan
     buy = (data['RSI'] < 30) & (data['MACD'] > data['Signal'])
     sell = (data['RSI'] > 70) & (data['MACD'] < data['Signal'])
     data.loc[buy, 'Position'] = 1
