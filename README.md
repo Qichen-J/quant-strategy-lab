@@ -1,6 +1,6 @@
 # quant-strategy-lab
 
-##RSI-MACD
+## RSI-MACD
 
 ### 1. Baseline Strategy
 - **Logic**: RSI(30/70) + MACD(12,26,9) on AAPL  
@@ -17,7 +17,7 @@
 - **Result**: Sharpe ≈ 1.84, MaxDD ≈ 9.7%  
 - **Notebook**: `notebooks/multi_asset_backtest.ipynb`
 
-##Heikin-Ashi Candle Stick
+## Heikin-Ashi Candle Stick
 
 ### 1. Heikin-Ashi Baseline
 - **Logic**: HA_Close > HA_Open 
