@@ -27,7 +27,7 @@
 ### 2. Heikin-Ashi + MA50 Strategy  
    - **Logic:** go long when `HA_Close > HA_Open` **and** `Close > MA50`  
    - **Result:** Sharpe ≈ 0.79, MaxDD ≈ 13.21%  
-   - **Notebook:** `notebooks/heikin_ashi_ma50.ipynb`
+   - **Notebook:** `revised_HA.ipynb`
 
 ## How to Run
 ```bash
