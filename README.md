@@ -19,7 +19,7 @@
 
 ## Heikin-Ashi Candle Stick
 
-### 1. Heikin-Ashi Baseline
+### 1. Baseline Strategy
 - **Logic**: HA_Close > HA_Open 
 - **Result**: Sharpe ≈ 0.88, MaxDD ≈ 28.76%  
 - **Notebook**: `notebooks/baseline_HA.ipynb`
