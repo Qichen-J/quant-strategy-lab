@@ -23,6 +23,12 @@
 - **Logic**: HA_Close > HA_Open 
 - **Result**: Sharpe ≈ 0.88, MaxDD ≈ 28.76%  
 - **Notebook**: `notebooks/baseline_HA.ipynb`
+
+### 2. Heikin-Ashi + MA50 Strategy  
+   - **Logic:** go long when `HA_Close > HA_Open` **and** `Close > MA50`  
+   - **Result:** Sharpe ≈ 1.23, MaxDD ≈ 5.67%  
+   - **Notebook:** `notebooks/heikin_ashi_ma50.ipynb`
+
 ## How to Run
 ```bash
 git clone https://github.com/Qichen-J/quant-strategy-lab.git
