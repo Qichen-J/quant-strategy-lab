@@ -1,6 +1,8 @@
 # quant-strategy-lab
 
-## 1. Baseline Strategy
+##RSI-MACD
+
+### 1. Baseline Strategy
 - **Logic**: RSI(30/70) + MACD(12,26,9) on AAPL  
 - **Result**: Sharpe ≈ 1.01, MaxDD ≈ 6.9%  
 - **Notebook**: `notebooks/baseline_strategy.ipynb`
@@ -15,6 +17,12 @@
 - **Result**: Sharpe ≈ 1.84, MaxDD ≈ 9.7%  
 - **Notebook**: `notebooks/multi_asset_backtest.ipynb`
 
+##Heikin-Ashi Candle Stick
+
+### 1. Heikin-Ashi Baseline
+- **Logic**: HA_Close > HA_Open 
+- **Result**: Sharpe ≈ 0.88, MaxDD ≈ 28.76%  
+- **Notebook**: `notebooks/baseline_HA.ipynb`
 ## How to Run
 ```bash
 git clone https://github.com/Qichen-J/quant-strategy-lab.git
