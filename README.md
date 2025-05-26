@@ -5,7 +5,7 @@
 ### 1. Baseline Strategy
 - **Logic**: RSI(30/70) + MACD(12,26,9) on AAPL  
 - **Result**: Sharpe ≈ 1.01, MaxDD ≈ 6.9%  
-- **Notebook**: `notebooks/baseline_strategy.ipynb`
+- **Notebook**: `notebooks/baseline_strategy_RSI_MACD.ipynb`
 
 ### 2. Parameter Grid Search
 - **Logic**: Search RSI low ∈ {20,25,30,35,40}, high ∈ {60,65,70,75,80} on [AAPL, SPY, XOM]  
