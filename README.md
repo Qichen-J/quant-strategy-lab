@@ -29,6 +29,18 @@
    - **Result:** Sharpe ≈ 0.79, MaxDD ≈ 13.21%  
    - **Notebook:** `revised_HA.ipynb`
 
+# Awesome Oscillator Strategy
+
+## 1. Baseline Strategy
+• **Logic**: Buy when AO crosses above zero; sell when AO crosses below zero  
+• **Result**: Sharpe ≈ -0.67, MaxDD ≈ -39.27%  
+• **Notebook**: `notebooks/baseline_AO.ipynb`
+
+## 2. AO + Stop-Loss/Take-Profit Strategy
+• **Logic**: Same as baseline, with a 2% stop-loss and 5% take-profit  
+• **Result**: Sharpe ≈ 0.34, MaxDD ≈ -16.95%  
+• **Notebook**: `notebooks/revised_AO.ipynb`
+
 ## How to Run
 ```bash
 git clone https://github.com/Qichen-J/quant-strategy-lab.git
