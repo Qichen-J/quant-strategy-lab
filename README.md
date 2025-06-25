@@ -49,6 +49,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/baseline_strategy_RSI_MACD.ipynb
 py -m strategies.rsi_macd.rsi_macd_baseline
 jupyter notebook notebooks/grid_search_rsi.ipynb
+py -m strategies.rsi_macd.rsi_macd_gridsearch
 jupyter notebook notebooks/revised_strategy_RSI_MACD.ipynb
 py -m strategies.rsi_macd.rsi_macd_revised
 jupyter notebook notebooks/baseline_HA.ipynb
