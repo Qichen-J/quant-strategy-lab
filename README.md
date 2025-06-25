@@ -47,9 +47,15 @@ git clone https://github.com/Qichen-J/quant-strategy-lab.git
 cd quant-strategy-lab
 pip install -r requirements.txt
 jupyter notebook notebooks/baseline_strategy_RSI_MACD.ipynb
+py -m strategies.rsi_macd.rsi_macd_baseline
 jupyter notebook notebooks/grid_search_rsi.ipynb
 jupyter notebook notebooks/revised_strategy_RSI_MACD.ipynb
+py -m strategies.rsi_macd.rsi_macd_revised
 jupyter notebook notebooks/baseline_HA.ipynb
+py -m strategies.heikin_ashi.heikin_ashi_baseline
 jupyter notebook notebooks/revised_HA.ipynb
+py -m strategies.heikin_ashi.heikin_ashi_revised
 jupyter notebook notebooks/baseline_AO.ipynb
+py -m strategies.awesome_oscillator.awesome_oscillator_baseline
 jupyter notebook notebooks/revised_AO.ipynb
+py -m strategies.awesome_oscillator.awesome_oscillator_revised
